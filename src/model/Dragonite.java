@@ -19,3 +19,50 @@ package model;
 //type = "DRAGON"
 //evolution = "DRATINI"
 //baseExp = "270" 
+
+public class Dragonite extends Pokemon{
+	private String characteristics; 
+	private String type;
+	private String evolution;
+	private String baseExp;
+	public String getCharacteristics() {
+		return characteristics;
+	}
+	public void setCharacteristics(String characteristics) {
+		this.characteristics = characteristics;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public String getEvolution() {
+		return evolution;
+	}
+	public void setEvolution(String evolution) {
+		this.evolution = evolution;
+	}
+	public String getBaseExp() {
+		return baseExp;
+	}
+	public void setBaseExp(String baseExp) {
+		this.baseExp = baseExp;
+	}
+	public Dragonite(String characteristics, int i, String type, String evolution, String baseExp, Object object) {
+		super();
+		this.characteristics = "Dragonite is capable of flying faster than the speed of sound. It is a kindhearted Pokémon with human-like intelligence. It shows signs of altruism.";
+		this.type = "DRAGON";
+		this.evolution = "DRATINI";
+		this.baseExp = "270";
+	}
+	public Dragonite(Object characteristics2, int i, Object type2, Object evolution2, Object baseExp2, Object object) {
+		// TODO Auto-generated constructor stub
+	}
+	public Object getCharacter() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}
